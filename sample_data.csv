@@ -1,0 +1,6 @@
+order_id,customer_id,order_date,product_sku,quantity,unit_price,total_amount,order_status,payment_status,region
+ORD-001,CUST-101,2024-03-01,SKU-A,10,500,5000,Invoiced,Cleared,East
+ORD-002,CUST-102,2024-03-02,SKU-B,5,1000,5000,Delivered,Pending,West
+ORD-003,CUST-101,2024-03-03,SKU-C,8,700,5600,Shipped,Cleared,North
+ORD-004,CUST-103,2024-03-04,SKU-A,12,500,6000,Invoiced,Pending,South
+ORD-005,CUST-104,2024-03-05,SKU-D,6,1200,7200,Delivered,Cleared,East
