@@ -1,6 +1,121 @@
-order_id,customer_id,order_date,product_sku,quantity,unit_price,total_amount,order_status,payment_status,region
-ORD-001,CUST-101,2024-03-01,SKU-A,10,500,5000,Invoiced,Cleared,East
-ORD-002,CUST-102,2024-03-02,SKU-B,5,1000,5000,Delivered,Pending,West
-ORD-003,CUST-101,2024-03-03,SKU-C,8,700,5600,Shipped,Cleared,North
-ORD-004,CUST-103,2024-03-04,SKU-A,12,500,6000,Invoiced,Pending,South
-ORD-005,CUST-104,2024-03-05,SKU-D,6,1200,7200,Delivered,Cleared,East
+order_id,customer_id,customer_name,order_date,product_sku,product_name,category,quantity,unit_price,discount_pct,total_amount,region,order_status,payment_status,ship_date,invoice_date,payment_date
+ORD-0084,CUST-109,Metro Supplies,2024-01-01,SKU-TOOL-R,Pro Tool R,Tools,14,902.98,0.1,11377.56,North India,Invoiced,Cleared,2024-01-10,2024-01-06,2024-01-24
+ORD-0025,CUST-107,Pioneer Goods,2024-01-02,SKU-KIT-Q,Starter Kit Q,Kits,31,579.78,0.0,17973.19,South India,Closed,Partially Paid,2024-01-12,2024-01-17,
+ORD-0089,CUST-105,Delta Trading,2024-01-02,SKU-MODULE-Z,Module Z Plus,Modules,39,2163.03,0.1,75922.19,South India,Closed,Cleared,2024-01-11,2024-01-12,2024-02-02
+ORD-0013,CUST-108,Horizon Retail,2024-01-02,SKU-MODULE-Z,Module Z Plus,Modules,50,2285.94,0.0,114297.2,Central India,Closed,Pending,2024-01-08,2024-01-17,
+ORD-0035,CUST-109,Metro Supplies,2024-01-05,SKU-WIDGET-B,Red Widget B,Electronics,46,918.81,0.0,42265.3,Central India,Order Placed,Pending,,,
+ORD-0030,CUST-102,Bharat Enterprises,2024-01-05,SKU-TOOL-R,Pro Tool R,Tools,38,949.76,0.0,36090.91,East India,Invoiced,Cleared,2024-01-09,2024-01-15,2024-01-19
+ORD-0012,CUST-109,Metro Supplies,2024-01-06,SKU-WIDGET-B,Red Widget B,Electronics,36,1070.43,0.0,38535.39,North India,Processing,Pending,,,
+ORD-0024,CUST-109,Metro Supplies,2024-01-08,SKU-WIDGET-B,Red Widget B,Electronics,17,1131.59,0.0,19237.06,South India,Invoiced,Cleared,2024-01-16,2024-01-13,2024-01-28
+ORD-0068,CUST-108,Horizon Retail,2024-01-09,SKU-WIDGET-B,Red Widget B,Electronics,27,973.56,0.15,22343.18,West India,Delivered,Partially Paid,2024-01-18,,
+ORD-0001,CUST-102,Bharat Enterprises,2024-01-13,SKU-MODULE-Z,Module Z Plus,Modules,10,1922.45,0.15,16340.79,East India,Closed,Pending,2024-01-16,2024-01-27,
+ORD-0095,CUST-105,Delta Trading,2024-01-15,SKU-WIDGET-A,Blue Widget A,Electronics,5,490.55,0.0,2452.73,North India,Delivered,Cleared,2024-01-25,,2024-02-20
+ORD-0002,CUST-107,Pioneer Goods,2024-01-17,SKU-WIDGET-A,Blue Widget A,Electronics,16,461.71,0.1,6648.65,Central India,Order Placed,Pending,,,
+ORD-0039,CUST-107,Pioneer Goods,2024-01-20,SKU-TOOL-R,Pro Tool R,Tools,31,860.05,0.0,26661.48,North India,Closed,Pending,2024-01-25,2024-01-25,
+ORD-0034,CUST-105,Delta Trading,2024-01-23,SKU-WIDGET-A,Blue Widget A,Electronics,10,491.69,0.15,4179.4,North India,Shipped,Pending,2024-01-31,,
+ORD-0072,CUST-105,Delta Trading,2024-01-24,SKU-WIDGET-A,Blue Widget A,Electronics,46,519.17,0.0,23881.81,South India,Processing,Pending,,,
+ORD-0022,CUST-102,Bharat Enterprises,2024-02-01,SKU-KIT-Q,Starter Kit Q,Kits,8,649.23,0.0,5193.86,West India,Shipped,Pending,2024-02-09,,
+ORD-0053,CUST-104,Sunrise Industries,2024-02-02,SKU-KIT-Q,Starter Kit Q,Kits,36,601.14,0.05,20558.98,South India,Processing,Partially Paid,,,
+ORD-0043,CUST-107,Pioneer Goods,2024-02-05,SKU-DEVICE-P,Device P Mini,Electronics,44,1266.95,0.0,55745.65,North India,Invoiced,Cleared,2024-02-12,2024-02-16,2024-03-04
+ORD-0094,CUST-110,Apex Logistics,2024-02-05,SKU-PART-Y,Component Part Y,Components,20,793.34,0.0,15866.85,East India,Invoiced,Cleared,2024-02-08,2024-02-17,2024-02-25
+ORD-0006,CUST-105,Delta Trading,2024-02-10,SKU-PART-Y,Component Part Y,Components,26,837.47,0.0,21774.11,South India,Closed,Cleared,2024-02-17,2024-02-20,2024-03-04
+ORD-0005,CUST-107,Pioneer Goods,2024-02-10,SKU-MODULE-Z,Module Z Plus,Modules,41,2214.7,0.0,90802.8,Central India,Shipped,Pending,2024-02-15,,
+ORD-0115,CUST-102,Bharat Enterprises,2024-02-11,SKU-DEVICE-P,Device P Mini,Electronics,6,1262.49,0.0,7574.94,North India,Invoiced,Cleared,2024-02-18,2024-02-22,2024-03-25
+ORD-0058,CUST-105,Delta Trading,2024-02-11,SKU-TOOL-R,Pro Tool R,Tools,36,814.36,0.0,29317.0,North India,Shipped,Pending,2024-02-13,,
+ORD-0016,CUST-102,Bharat Enterprises,2024-02-13,SKU-TOOL-R,Pro Tool R,Tools,50,993.61,0.1,44712.24,West India,Processing,Pending,,,
+ORD-0065,CUST-104,Sunrise Industries,2024-02-14,SKU-MODULE-Z,Module Z Plus,Modules,17,2240.82,0.05,36189.17,Central India,Invoiced,Cleared,2024-02-16,2024-02-26,2024-03-15
+ORD-0118,CUST-102,Bharat Enterprises,2024-02-16,SKU-WIDGET-B,Red Widget B,Electronics,8,923.31,0.15,6278.49,North India,Closed,Cleared,2024-02-26,2024-02-29,2024-03-18
+ORD-0004,CUST-102,Bharat Enterprises,2024-02-17,SKU-KIT-Q,Starter Kit Q,Kits,24,554.51,0.1,11977.36,North India,Closed,Partially Paid,2024-02-27,2024-02-23,
+ORD-0109,CUST-106,Omega Systems,2024-02-20,SKU-DEVICE-P,Device P Mini,Electronics,43,1243.34,0.0,53463.61,East India,Invoiced,Cleared,2024-02-23,2024-03-03,2024-03-06
+ORD-0062,CUST-104,Sunrise Industries,2024-02-22,SKU-MODULE-Z,Module Z Plus,Modules,40,2225.15,0.0,89005.86,Central India,Closed,Cleared,2024-03-01,2024-03-08,2024-03-26
+ORD-0061,CUST-105,Delta Trading,2024-02-25,SKU-WIDGET-A,Blue Widget A,Electronics,38,566.11,0.15,18285.38,South India,Invoiced,Partially Paid,2024-02-28,2024-03-10,
+ORD-0112,CUST-103,Zenith Solutions,2024-02-26,SKU-WIDGET-A,Blue Widget A,Electronics,24,466.48,0.0,11195.41,Central India,Delivered,Cleared,2024-02-28,,2024-03-15
+ORD-0078,CUST-107,Pioneer Goods,2024-02-28,SKU-PART-Y,Component Part Y,Components,19,796.43,0.0,15132.2,East India,Processing,Pending,,,
+ORD-0044,CUST-109,Metro Supplies,2024-03-06,SKU-PART-Y,Component Part Y,Components,26,753.83,0.15,16659.72,West India,Invoiced,Cleared,2024-03-16,2024-03-11,2024-04-04
+ORD-0036,CUST-109,Metro Supplies,2024-03-16,SKU-KIT-Q,Starter Kit Q,Kits,21,559.12,0.0,11741.45,East India,Closed,Cleared,2024-03-21,2024-03-31,2024-04-01
+ORD-0011,CUST-102,Bharat Enterprises,2024-03-19,SKU-GADGET-X,Gadget X Pro,Gadgets,29,1647.03,0.1,42987.48,East India,Invoiced,Cleared,2024-03-28,2024-04-01,2024-04-14
+ORD-0120,CUST-104,Sunrise Industries,2024-03-20,SKU-TOOL-R,Pro Tool R,Tools,8,860.46,0.0,6883.64,Central India,Delivered,Pending,2024-03-25,,
+ORD-0026,CUST-108,Horizon Retail,2024-03-20,SKU-PART-Y,Component Part Y,Components,5,730.63,0.1,3287.85,Central India,Processing,Pending,,,
+ORD-0056,CUST-107,Pioneer Goods,2024-03-25,SKU-TOOL-R,Pro Tool R,Tools,41,1016.9,0.1,37523.49,East India,Closed,Cleared,2024-03-27,2024-03-31,2024-05-01
+ORD-0017,CUST-109,Metro Supplies,2024-03-25,SKU-MODULE-Z,Module Z Plus,Modules,40,2063.84,0.05,78425.8,West India,Closed,Partially Paid,2024-03-30,2024-04-03,
+ORD-0049,CUST-104,Sunrise Industries,2024-03-31,SKU-TOOL-R,Pro Tool R,Tools,17,821.3,0.0,13962.09,South India,Shipped,Pending,2024-04-10,,
+ORD-0038,CUST-101,Acme Corp,2024-04-01,SKU-DEVICE-P,Device P Mini,Electronics,28,1314.72,0.15,31290.24,West India,Delivered,Pending,2024-04-04,,
+ORD-0048,CUST-110,Apex Logistics,2024-04-09,SKU-KIT-Q,Starter Kit Q,Kits,17,614.16,0.0,10440.66,East India,Closed,Pending,2024-04-12,2024-04-20,
+ORD-0045,CUST-105,Delta Trading,2024-04-17,SKU-KIT-Q,Starter Kit Q,Kits,40,657.86,0.15,22367.37,North India,Invoiced,Cleared,2024-04-22,2024-04-30,2024-05-27
+ORD-0060,CUST-110,Apex Logistics,2024-04-21,SKU-TOOL-R,Pro Tool R,Tools,25,967.38,0.0,24184.49,Central India,Invoiced,Partially Paid,2024-04-24,2024-04-28,
+ORD-0047,CUST-105,Delta Trading,2024-04-25,SKU-PART-Y,Component Part Y,Components,4,702.63,0.0,2810.52,South India,Invoiced,Partially Paid,2024-05-04,2024-05-06,
+ORD-0070,CUST-105,Delta Trading,2024-04-28,SKU-WIDGET-B,Red Widget B,Electronics,22,1080.32,0.0,23767.06,Central India,Closed,Cleared,2024-05-03,2024-05-06,2024-06-07
+ORD-0086,CUST-110,Apex Logistics,2024-05-02,SKU-GADGET-X,Gadget X Pro,Gadgets,2,1466.53,0.1,2639.76,South India,Processing,Partially Paid,,,
+ORD-0059,CUST-101,Acme Corp,2024-05-06,SKU-PART-Y,Component Part Y,Components,41,832.36,0.0,34126.57,West India,Processing,Pending,,,
+ORD-0041,CUST-102,Bharat Enterprises,2024-05-13,SKU-GADGET-X,Gadget X Pro,Gadgets,18,1567.72,0.0,28218.98,East India,Invoiced,Cleared,2024-05-20,2024-05-24,2024-06-24
+ORD-0029,CUST-106,Omega Systems,2024-05-13,SKU-PART-Y,Component Part Y,Components,22,800.57,0.0,17612.62,North India,Invoiced,Cleared,2024-05-19,2024-05-25,2024-06-12
+ORD-0052,CUST-104,Sunrise Industries,2024-05-19,SKU-DEVICE-P,Device P Mini,Electronics,36,1175.91,0.0,42332.86,West India,Shipped,Pending,2024-05-23,,
+ORD-0023,CUST-103,Zenith Solutions,2024-05-22,SKU-TOOL-R,Pro Tool R,Tools,6,866.21,0.05,4937.38,Central India,Processing,Pending,,,
+ORD-0103,CUST-108,Horizon Retail,2024-05-31,SKU-DEVICE-P,Device P Mini,Electronics,31,1321.27,0.0,40959.36,West India,Closed,Cleared,2024-06-08,2024-06-13,2024-07-03
+ORD-0032,CUST-109,Metro Supplies,2024-06-02,SKU-WIDGET-B,Red Widget B,Electronics,10,1134.73,0.0,11347.33,East India,Closed,Partially Paid,2024-06-06,2024-06-11,
+ORD-0098,CUST-110,Apex Logistics,2024-06-02,SKU-KIT-Q,Starter Kit Q,Kits,31,643.55,0.0,19949.96,West India,Closed,Pending,2024-06-05,2024-06-10,
+ORD-0114,CUST-109,Metro Supplies,2024-06-03,SKU-TOOL-R,Pro Tool R,Tools,3,954.75,0.0,2864.25,South India,Closed,Cleared,2024-06-06,2024-06-15,2024-07-11
+ORD-0102,CUST-105,Delta Trading,2024-06-16,SKU-KIT-Q,Starter Kit Q,Kits,10,566.35,0.1,5097.11,North India,Invoiced,Pending,2024-06-20,2024-06-25,
+ORD-0111,CUST-104,Sunrise Industries,2024-06-17,SKU-GADGET-X,Gadget X Pro,Gadgets,40,1645.74,0.0,65829.66,North India,Closed,Cleared,2024-06-21,2024-06-30,2024-07-13
+ORD-0093,CUST-105,Delta Trading,2024-06-22,SKU-KIT-Q,Starter Kit Q,Kits,23,637.48,0.15,12462.65,Central India,Invoiced,Cleared,2024-07-01,2024-07-05,2024-07-04
+ORD-0031,CUST-104,Sunrise Industries,2024-07-08,SKU-MODULE-Z,Module Z Plus,Modules,36,1878.87,0.15,57493.53,North India,Invoiced,Pending,2024-07-18,2024-07-13,
+ORD-0075,CUST-109,Metro Supplies,2024-07-13,SKU-TOOL-R,Pro Tool R,Tools,21,1014.41,0.1,19172.41,South India,Delivered,Partially Paid,2024-07-16,,
+ORD-0042,CUST-102,Bharat Enterprises,2024-07-16,SKU-PART-Y,Component Part Y,Components,47,722.76,0.05,32271.25,East India,Invoiced,Partially Paid,2024-07-21,2024-07-26,
+ORD-0104,CUST-102,Bharat Enterprises,2024-07-21,SKU-WIDGET-A,Blue Widget A,Electronics,9,483.06,0.05,4130.14,North India,Closed,Cleared,2024-07-29,2024-08-05,2024-08-23
+ORD-0040,CUST-104,Sunrise Industries,2024-07-23,SKU-DEVICE-P,Device P Mini,Electronics,6,1163.58,0.0,6981.49,North India,Closed,Cleared,2024-08-02,2024-08-02,2024-08-03
+ORD-0028,CUST-104,Sunrise Industries,2024-07-25,SKU-WIDGET-B,Red Widget B,Electronics,38,1135.4,0.0,43145.16,Central India,Invoiced,Cleared,2024-08-02,2024-08-09,2024-09-06
+ORD-0083,CUST-106,Omega Systems,2024-07-29,SKU-TOOL-R,Pro Tool R,Tools,27,874.85,0.1,21258.83,East India,Invoiced,Cleared,2024-08-05,2024-08-04,2024-09-02
+ORD-0119,CUST-102,Bharat Enterprises,2024-07-29,SKU-DEVICE-P,Device P Mini,Electronics,50,1342.08,0.05,63748.91,East India,Closed,Cleared,2024-08-05,2024-08-04,2024-09-09
+ORD-0003,CUST-109,Metro Supplies,2024-08-02,SKU-PART-Y,Component Part Y,Components,19,759.23,0.0,14425.31,West India,Closed,Cleared,2024-08-06,2024-08-10,2024-09-02
+ORD-0080,CUST-108,Horizon Retail,2024-08-12,SKU-WIDGET-B,Red Widget B,Electronics,29,1049.51,0.15,25870.4,North India,Invoiced,Cleared,2024-08-17,2024-08-27,2024-08-23
+ORD-0092,CUST-102,Bharat Enterprises,2024-08-13,SKU-WIDGET-B,Red Widget B,Electronics,31,1031.49,0.0,31976.12,West India,Invoiced,Cleared,2024-08-17,2024-08-19,2024-09-22
+ORD-0051,CUST-108,Horizon Retail,2024-08-18,SKU-MODULE-Z,Module Z Plus,Modules,42,2175.89,0.0,91387.31,Central India,Invoiced,Cleared,2024-08-27,2024-08-24,2024-09-15
+ORD-0077,CUST-107,Pioneer Goods,2024-08-18,SKU-TOOL-R,Pro Tool R,Tools,16,875.53,0.0,14008.53,North India,Closed,Cleared,2024-08-23,2024-08-27,2024-09-09
+ORD-0107,CUST-107,Pioneer Goods,2024-08-20,SKU-DEVICE-P,Device P Mini,Electronics,49,1281.15,0.15,53359.73,Central India,Invoiced,Partially Paid,2024-08-24,2024-08-31,
+ORD-0116,CUST-105,Delta Trading,2024-08-20,SKU-KIT-Q,Starter Kit Q,Kits,46,554.88,0.0,25524.33,Central India,Closed,Cleared,2024-08-29,2024-08-28,2024-09-25
+ORD-0117,CUST-106,Omega Systems,2024-08-20,SKU-KIT-Q,Starter Kit Q,Kits,8,602.4,0.0,4819.19,South India,Delivered,Cleared,2024-08-24,,2024-09-29
+ORD-0097,CUST-105,Delta Trading,2024-08-23,SKU-MODULE-Z,Module Z Plus,Modules,31,2133.42,0.0,66136.03,Central India,Shipped,Pending,2024-08-30,,
+ORD-0057,CUST-103,Zenith Solutions,2024-08-24,SKU-GADGET-X,Gadget X Pro,Gadgets,26,1368.86,0.0,35590.28,West India,Invoiced,Cleared,2024-09-01,2024-09-02,2024-09-29
+ORD-0087,CUST-102,Bharat Enterprises,2024-08-24,SKU-WIDGET-B,Red Widget B,Electronics,11,1061.93,0.05,11097.14,North India,Invoiced,Cleared,2024-09-02,2024-09-05,2024-09-18
+ORD-0073,CUST-105,Delta Trading,2024-08-28,SKU-TOOL-R,Pro Tool R,Tools,13,909.11,0.0,11818.37,North India,Closed,Cleared,2024-08-31,2024-09-08,2024-10-08
+ORD-0021,CUST-104,Sunrise Industries,2024-08-30,SKU-KIT-Q,Starter Kit Q,Kits,8,568.56,0.15,3866.22,South India,Delivered,Partially Paid,2024-09-01,,
+ORD-0066,CUST-103,Zenith Solutions,2024-09-06,SKU-PART-Y,Component Part Y,Components,18,741.53,0.0,13347.53,North India,Closed,Partially Paid,2024-09-12,2024-09-19,
+ORD-0108,CUST-102,Bharat Enterprises,2024-09-07,SKU-KIT-Q,Starter Kit Q,Kits,19,680.86,0.0,12936.3,North India,Shipped,Pending,2024-09-12,,
+ORD-0015,CUST-106,Omega Systems,2024-09-07,SKU-WIDGET-A,Blue Widget A,Electronics,25,463.98,0.0,11599.59,West India,Processing,Partially Paid,,,
+ORD-0100,CUST-110,Apex Logistics,2024-09-11,SKU-MODULE-Z,Module Z Plus,Modules,16,2187.87,0.1,31505.34,North India,Shipped,Pending,2024-09-17,,
+ORD-0063,CUST-102,Bharat Enterprises,2024-09-16,SKU-DEVICE-P,Device P Mini,Electronics,28,1083.8,0.05,28828.96,East India,Invoiced,Cleared,2024-09-25,2024-09-23,2024-10-23
+ORD-0020,CUST-102,Bharat Enterprises,2024-09-20,SKU-PART-Y,Component Part Y,Components,33,727.21,0.0,23998.08,Central India,Shipped,Partially Paid,2024-09-29,,
+ORD-0067,CUST-101,Acme Corp,2024-09-21,SKU-PART-Y,Component Part Y,Components,48,691.05,0.05,31511.99,South India,Invoiced,Cleared,2024-09-30,2024-10-06,2024-11-01
+ORD-0064,CUST-103,Zenith Solutions,2024-09-24,SKU-MODULE-Z,Module Z Plus,Modules,36,2107.96,0.05,72092.1,South India,Invoiced,Partially Paid,2024-09-30,2024-10-04,
+ORD-0113,CUST-107,Pioneer Goods,2024-09-26,SKU-WIDGET-B,Red Widget B,Electronics,32,1086.42,0.05,33027.06,North India,Invoiced,Cleared,2024-10-06,2024-10-04,2024-10-08
+ORD-0069,CUST-109,Metro Supplies,2024-09-28,SKU-DEVICE-P,Device P Mini,Electronics,49,1207.65,0.1,53257.42,North India,Delivered,Partially Paid,2024-10-04,,
+ORD-0055,CUST-107,Pioneer Goods,2024-10-02,SKU-PART-Y,Component Part Y,Components,19,766.54,0.05,13836.1,South India,Order Placed,Pending,,,
+ORD-0090,CUST-109,Metro Supplies,2024-10-05,SKU-KIT-Q,Starter Kit Q,Kits,22,608.3,0.0,13382.64,West India,Invoiced,Cleared,2024-10-13,2024-10-10,2024-11-04
+ORD-0085,CUST-105,Delta Trading,2024-10-08,SKU-GADGET-X,Gadget X Pro,Gadgets,30,1697.88,0.15,43295.87,South India,Processing,Partially Paid,,,
+ORD-0088,CUST-108,Horizon Retail,2024-10-09,SKU-GADGET-X,Gadget X Pro,Gadgets,40,1493.84,0.1,53778.41,West India,Closed,Cleared,2024-10-17,2024-10-19,2024-11-20
+ORD-0037,CUST-106,Omega Systems,2024-10-13,SKU-KIT-Q,Starter Kit Q,Kits,49,686.08,0.0,33617.7,West India,Closed,Pending,2024-10-17,2024-10-24,
+ORD-0079,CUST-110,Apex Logistics,2024-10-18,SKU-MODULE-Z,Module Z Plus,Modules,31,2019.58,0.15,53215.85,North India,Closed,Pending,2024-10-28,2024-10-31,
+ORD-0099,CUST-107,Pioneer Goods,2024-10-19,SKU-DEVICE-P,Device P Mini,Electronics,46,1252.44,0.0,57612.4,East India,Closed,Cleared,2024-10-25,2024-10-24,2024-11-01
+ORD-0074,CUST-102,Bharat Enterprises,2024-10-22,SKU-WIDGET-A,Blue Widget A,Electronics,38,468.97,0.0,17820.7,East India,Closed,Cleared,2024-10-30,2024-11-05,2024-11-15
+ORD-0081,CUST-105,Delta Trading,2024-10-22,SKU-WIDGET-A,Blue Widget A,Electronics,13,545.39,0.05,6735.55,Central India,Closed,Pending,2024-10-26,2024-11-05,
+ORD-0054,CUST-107,Pioneer Goods,2024-10-26,SKU-WIDGET-A,Blue Widget A,Electronics,50,557.09,0.1,25069.12,South India,Invoiced,Pending,2024-11-01,2024-11-06,
+ORD-0010,CUST-105,Delta Trading,2024-10-26,SKU-KIT-Q,Starter Kit Q,Kits,27,674.67,0.0,18216.18,West India,Closed,Cleared,2024-11-04,2024-11-01,2024-11-08
+ORD-0027,CUST-101,Acme Corp,2024-10-26,SKU-TOOL-R,Pro Tool R,Tools,35,923.14,0.0,32309.95,East India,Closed,Cleared,2024-10-30,2024-11-01,2024-11-09
+ORD-0071,CUST-105,Delta Trading,2024-10-28,SKU-MODULE-Z,Module Z Plus,Modules,14,2290.26,0.0,32063.57,West India,Delivered,Cleared,2024-11-07,,2024-11-15
+ORD-0019,CUST-104,Sunrise Industries,2024-10-28,SKU-PART-Y,Component Part Y,Components,47,676.35,0.15,27020.11,East India,Shipped,Partially Paid,2024-11-04,,
+ORD-0050,CUST-109,Metro Supplies,2024-10-31,SKU-DEVICE-P,Device P Mini,Electronics,30,1365.01,0.1,36855.32,Central India,Invoiced,Pending,2024-11-09,2024-11-07,
+ORD-0033,CUST-105,Delta Trading,2024-11-05,SKU-PART-Y,Component Part Y,Components,15,809.55,0.15,10321.79,North India,Invoiced,Cleared,2024-11-07,2024-11-11,2024-12-12
+ORD-0014,CUST-109,Metro Supplies,2024-11-07,SKU-PART-Y,Component Part Y,Components,50,703.66,0.0,35182.87,Central India,Closed,Pending,2024-11-09,2024-11-21,
+ORD-0076,CUST-104,Sunrise Industries,2024-11-16,SKU-PART-Y,Component Part Y,Components,7,724.62,0.0,5072.35,West India,Shipped,Pending,2024-11-18,,
+ORD-0101,CUST-103,Zenith Solutions,2024-11-17,SKU-WIDGET-B,Red Widget B,Electronics,43,1125.85,0.0,48411.59,North India,Closed,Cleared,2024-11-24,2024-11-24,2024-12-02
+ORD-0082,CUST-107,Pioneer Goods,2024-11-21,SKU-TOOL-R,Pro Tool R,Tools,32,1028.04,0.0,32897.2,South India,Delivered,Partially Paid,2024-11-25,,
+ORD-0110,CUST-104,Sunrise Industries,2024-11-24,SKU-WIDGET-A,Blue Widget A,Electronics,23,456.32,0.0,10495.41,West India,Closed,Cleared,2024-12-04,2024-12-02,2024-12-17
+ORD-0106,CUST-105,Delta Trading,2024-11-28,SKU-KIT-Q,Starter Kit Q,Kits,4,557.5,0.0,2230.01,North India,Closed,Cleared,2024-12-03,2024-12-11,2024-12-16
+ORD-0009,CUST-104,Sunrise Industries,2024-12-01,SKU-TOOL-R,Pro Tool R,Tools,43,899.02,0.05,36724.85,West India,Delivered,Cleared,2024-12-11,,2025-01-14
+ORD-0046,CUST-103,Zenith Solutions,2024-12-03,SKU-WIDGET-B,Red Widget B,Electronics,44,970.95,0.15,36313.4,Central India,Delivered,Pending,2024-12-08,,
+ORD-0018,CUST-107,Pioneer Goods,2024-12-09,SKU-DEVICE-P,Device P Mini,Electronics,35,1211.43,0.05,40280.05,East India,Delivered,Cleared,2024-12-11,,2025-01-23
+ORD-0105,CUST-102,Bharat Enterprises,2024-12-11,SKU-PART-Y,Component Part Y,Components,41,763.4,0.1,28169.53,North India,Closed,Cleared,2024-12-14,2024-12-26,2025-01-19
+ORD-0096,CUST-110,Apex Logistics,2024-12-15,SKU-GADGET-X,Gadget X Pro,Gadgets,7,1413.74,0.1,8906.59,South India,Invoiced,Cleared,2024-12-19,2024-12-23,2025-01-23
+ORD-0008,CUST-104,Sunrise Industries,2024-12-16,SKU-DEVICE-P,Device P Mini,Electronics,5,1332.86,0.0,6664.28,East India,Closed,Cleared,2024-12-19,2024-12-24,2025-01-15
+ORD-0007,CUST-105,Delta Trading,2024-12-25,SKU-WIDGET-B,Red Widget B,Electronics,12,1052.28,0.1,11364.65,West India,Shipped,Pending,2025-01-04,,
+ORD-0091,CUST-108,Horizon Retail,2024-12-27,SKU-KIT-Q,Starter Kit Q,Kits,44,597.91,0.15,22361.9,West India,Invoiced,Cleared,2025-01-06,2025-01-10,2025-01-27
